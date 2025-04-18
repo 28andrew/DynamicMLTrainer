@@ -1,4 +1,6 @@
-## Group work
+## Dynamic ML Trainer
+
+Our project for CPSC 526 - Building Distributed Systems. We model the connections between GPUs as a weighted graph, with weights being GPU communication speed. We imagine the use case is a data center environment where groups of GPUs reside on the same machine and there's a wide range of latency & speed depending on interconnect types and network topology. Then, we partition the components of an arbitrary PyTorch model as optimally as possible to map on to these machines for full model parallelism via pipelining.
 
 ### Andrew
 
